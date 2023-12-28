@@ -1,0 +1,671 @@
+/*font*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Pixelify+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-style: oblique;
+}
+
+
+
+/* MAGIC NUMBER GAME*/
+body,
+#magic-number {
+  background-image: url(https://media.giphy.com/media/5fD5MGQRup4Pu/giphy.gif);
+  background-repeat: no-repeat;
+  font-family: 'Orbitron', sans-serif;
+  background-size: cover;
+  font-style: oblique;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.navbar {
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  justify-content: center;
+  background-size: cover;
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-style: oblique;
+}
+
+
+#title-navbar {
+  color: chartreuse;
+  font-size: 50px;
+}
+
+.dropdown {
+  border: 3px dashed chartreuse;
+  background-color: rgba(128, 128, 128, 0.2);
+
+}
+
+.prova {
+  justify-content: center;
+  text-align: center;
+  margin-right: 300px;
+  width: 100%;
+  height: 100%x;
+  background-color: rgba(128, 128, 128, 0.2);
+  color: chartreuse;
+}
+
+.prova:hover {
+  background-color: rgba(127, 255, 0, 0.2);
+}
+
+#titolo {
+  align-items: center;
+  text-align: center;
+  font-size: 100px;
+  color: greenyellow
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: auto;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  margin-bottom: 10%;
+  font-family: 'Orbitron', sans-serif;
+  overflow: hidden;
+
+}
+
+.card-body {
+  display: flexbox;
+  background-color: rgba(128, 128, 128, 0.2);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#card-game {
+  border: 5px dashed chartreuse;
+  border-radius: 10%;
+  color: chartreuse;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: block;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  flex-basis: auto;
+
+}
+
+
+#sub-title {
+  font-size: 30%;
+  color: chartreuse;
+}
+
+.question {
+
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+.card-title {
+  font-size: 150px;
+  margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  font-style: oblique;
+
+}
+
+.card-subtitle {
+  font-size: 190px;
+
+}
+
+.card-text {
+  color: black;
+  font-size: 35px;
+  background-size: cover;
+  font-family: 'Orbitron', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+
+
+.btn-primary {
+  width: 200px;
+
+
+}
+
+#guess {
+  width: 100%;
+  font-size: 30px;
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+input:hover {
+  background-color: rgb(160, 211, 58);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.container {
+  display: flex;
+  font-size: 50px;
+  justify-content: center;
+  align-items: center;
+  border: 4px dashed black;
+  margin: 5%;
+  font-family: 'Orbitron', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(128, 128, 128, 0.3);
+  border-radius: 10%;
+  box-shadow: 10px 10px 5px rgb(0, 0, 0);
+
+}
+
+.card-text {
+  width: 50%;
+
+}
+
+#im1 {
+  width: 10%;
+}
+
+.box {
+  font-size: 50px;
+  margin: 5%;
+  width: auto;
+  border: 4px dashed black;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1%;
+  justify-content: space-around;
+  border-radius: 15%;
+  box-shadow: 10px 10px 5px rgb(0, 0, 0);
+
+}
+
+.box1 {
+  background-color: rgba(253, 22, 22, 0.8);
+  color: whitesmoke;
+  width: 40%;
+
+
+}
+
+.img-fluid {
+  width: 40%;
+
+}
+
+#tryAgain {
+  margin-left: auto;
+  margin-right: auto;
+  margin: 2%;
+  background-color: chartreuse;
+  display: none
+}
+
+.box:hover {
+  box-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+.box2 {
+  background-color: rgba(3, 121, 3, 0.8);
+  color: whitesmoke;
+  width: 50%;
+
+}
+
+footer {
+  color: chartreuse;
+  border: 4px dashed;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.form-footer {
+  width: 20%;
+  margin: 10px;
+  font-size: 30px;
+  font-family: 'Orbitron', sans-serif;
+
+}
+
+.formbotton-footer {
+  width: 10%;
+  font-size: 30px;
+  margin-left: 40%;
+}
+
+
+/* scheda del commento */
+body,
+#commit {
+  width: 100%;
+  background-image: url(https://steamuserimages-a.akamaihd.net/ugc/798741160223706631/2CE4673377681B3AD7170FBC456DD45C80419612/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
+}
+
+#nav-cont {
+  margin: 100px;
+}
+
+#card-commit {
+  width: 50%;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px dashed chartreuse;
+  border-radius: 10%;
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(128, 128, 128, 0.3);
+
+}
+
+.card-title {
+  color: chartreuse;
+  font-size: 200%;
+}
+
+#feedback {
+  width: 70%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 50%;
+
+}
+
+.button-invia {
+  background-color: chartreuse;
+  font-size: 60%;
+  padding: 5px;
+}
+
+.card-link {
+  padding: 10px;
+  color: chartreuse;
+  font-style: oblique;
+  font-size: 100%;
+
+}
+
+
+/*partre del feedback*/
+
+.card-title-feedback {
+  font-size: 50px;
+  padding: 5px;
+}
+
+.game-container {
+  width: 484px;
+}
+
+#feedback {
+  color: whitesmoke;
+  font-size: 40px;
+}
+
+#botton-return {
+  color: chartreuse;
+  font-size: 30px;
+  background-color: rgba(128, 128, 128, 0.3);
+}
+
+
+/* Pannello di gioco */
+h1 {
+  font-size: 40px;
+}
+
+.score {
+  font-size: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Tabellone di gioco  campo minato*/
+
+#campominato {
+  background-image: url(https://i.pinimg.com/originals/68/31/45/6831454cf213ed7ffa541fe666fa9cf8.gif);
+  background-repeat: no-repeat;
+  font-family: 'Orbitron', sans-serif;
+  background-size: cover;
+
+}
+
+#contenitore-campo {
+  width: 100vw;
+  color: chartreuse;
+
+
+}
+
+#title-campo {
+  font-size: 100px;
+}
+
+/*.game-container {}*/
+
+.game-board {
+  font-size: 50px;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  text-align: center;
+  padding: 10px;
+
+}
+
+#grid {
+  width: 80%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  align-content: center;
+  margin-bottom: 15px;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: cover;
+
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  border: 3px solid black;
+  background-color: rgba(127, 255, 0, 0.7);
+
+}
+
+.cell:hover {
+  background-color: aliceblue;
+}
+
+.cell-dark {
+  background-color: rgba(16, 17, 17, 0.7);
+}
+
+.cell-dark:hover {
+  background-color: gray;
+}
+
+.cell-clicked {
+  background-color: rgb(157, 197, 199);
+}
+
+.cell-bomb {
+  background-color: rgb(241, 117, 78);
+  position: relative;
+  background-size: contain;
+}
+
+
+/* Schermata di fine gioco */
+.end-game-screen {
+  background-color: rgba(241, 117, 78, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.win {
+  background-color: rgba(78, 241, 187, 0.6);
+}
+
+.end-game-text {
+  font-size: 48px;
+  line-height: 1.2;
+  font-family: 'Press Start 2P', cursive;
+  margin-bottom: 16px;
+}
+
+#try-again {
+  margin: 10px;
+  display: block;
+}
+
+#try-again:hover {
+  background-color: rgb(203, 224, 221);
+}
+
+/*Paypal*/
+#paypal {
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+input {
+  width: 70%;
+  padding: 10px;
+}
+
+#qr-paypal {
+  padding: 10px;
+}
+
+/*query responsive*/
+/* per schermi di larghezza inferiore a 400px */
+@media only screen and (max-width: 500px) {
+
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  img,
+  div,
+  .box,
+  p,
+  * {
+    display: flexbox;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex-basis: auto;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  html {
+    justify-content: center;
+    max-width: max-content;
+    max-height: max-content;
+  }
+
+  body {
+    width: 80%;
+    max-width: 100%;
+    overflow: hidden;
+    justify-content: center;
+  }
+
+  header {
+    font-size: 80%;
+    margin: 0;
+    display: flex;
+    max-width: max-content;
+  }
+
+  .d-inline-block {
+    width: 10%;
+    height: auto;
+    font-size: 50%;
+  }
+
+  #sub-title {
+    font-size: 10%;
+    color: chartreuse;
+  }
+
+  img {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-basis: auto;
+    width: 50%;
+    height: auto;
+  }
+
+  #title-navbar {
+    font-size: 80%;
+  }
+
+  footer {
+    display: flex;
+    width: 90%;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: nowrap;
+    flex-basis: auto;
+  }
+
+  .form-footer {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-basis: auto;
+    max-width: max-content;
+    font-size: 80%;
+    width: max-content;
+  }
+
+  .formbotton-footer {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-basis: auto;
+    width: 80%;
+    font-size: 70%;
+  }
+
+
+
+  /* Adatta la dimensione del testo utilizzando l'unità em */
+  .card {
+    width: 80%;
+    max-width: 100%;
+
+  }
+
+  .card-title {
+    font-size: 100%;
+  }
+
+  .card-body {
+    max-width: 100%;
+    font-size: 80%;
+  }
+
+  #guess {
+    display: block;
+    font-size: 30%;
+  }
+
+  .box {
+    width: 60%;
+    font-size: 50%;
+  }
+
+}
+
+
+/* Aggiungi qui ulteriori stili per adattare il layout alla dimensione dello schermo */
+
+
+/* per schermi di larghezza compresa tra 600px e 1200px */
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  img,
+  div,
+  p,
+  a {
+    font-size: 1.2em;
+    /* Adatta la dimensione del testo utilizzando l'unità em */
+  }
+
+  /* Aggiungi qui ulteriori stili per adattare il layout alla dimensione dello schermo */
+}
+
+/* per schermi di larghezza superiore a 1200px */
+@media only screen and (min-width: 1200px) {
+
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  img,
+  div,
+  p,
+  a {
+    font-size: 1.5em;
+    /* Adatta la dimensione del testo utilizzando l'unità em */
+  }
+}

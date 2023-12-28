@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/asset/css-game.css" />
+    <title>Campo Minato</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body id="campominato">
+    <header>
+      <nav class="navbar ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/index.html">
+            
+            <img  src="/asset/img/_125192bf-e5cd-4c1e-9bf1-9e0fe01e8b3c.jpg" alt="Logo" width="100" height="90" class="d-inline-block align-text-top">
+           <h6 id="title-navbar">THE-BOX-Of-GAMES</h6></a>
+         
+          </a>
+          <div class="dropdown">
+            <button type="button" class=" prova"  data-bs-toggle="dropdown" aria-expanded="false">
+               MENU
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/index.html">Magic-Number <img src="/asset/img/punto-di-domanda.png" height="50" width="50" alt=""> </a></li>
+              <li><a class="dropdown-item" href="https://www.linkedin.com/in/nicholas-pelliccioni-57a610290/">Social <img src="https://cdn-icons-png.flaticon.com/128/719/719680.png" alt=""  height="50" width="50" srcset=""> </a> </li>
+              <li><a class="dropdown-item" href="/supportCreator-game.html">Support Creator <img src="/asset/img/brain-line-icon.svg" height="50" width="50"  alt="" srcset=""> </a></li>
+            </ul>
+          </div>
+          </div>
+      </nav>
+    </header>
+    <main>
+    <div id="contenitore-campo" class="container-fluid">
+      <div id="title-campo" class="titolo">CAMPO MINATO</div>
+    </div>
+    <!--vite-->
+    <div id="card-game" class="card bg-transparent">
+      <!--creo la griglia-->
+      <div class="game-board"></div>
+      <div id="grid">
+        <!-- Qui ci saranno le celle -->
+        <div class="cell cell-dark"></div>
+        <div class="cell"></div>
+        <div class="cell cell-dark"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell cell-dark"></div>
+        <div class="cell"></div>
+        <div class="cell cell-dark"></div>
+        <div class="cell"></div>
+        <div class="cell cell-dark"></div>
+        <div class="cell"></div>
+        <div class="cell cell-dark"></div>
+        <div class="cell"></div>
+        <div class="cell cell-dark"></div>
+
+        <div class="cell cell-dark"></div>
+        <div class="cell"></div>
+        <div class="cell cell-dark"></div>
+        <div class="cell"></div>
+        <div class="cell cell-dark"></div>
+        <div class="cell"></div>
+        <div class="cell cell-dark"></div>
+        <div class="cell"></div>
+        <div class="cell cell-dark"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell cell-dark"></div>
+        <div class="cell"></div>
+        <div class="cell cell-dark"></div>
+        <div class="cell"></div>
+        <div class="cell cell-dark"></div>
+        <div class="cell"></div>
+        <div class="cell cell-dark"></div>
+        <div class="cell"></div>
+        <div class="cell cell-dark"></div>
+
+        <div class="cell cell-dark"></div>
+        <div class="cell"></div>
+        <div class="cell cell-dark"></div>
+        <div class="cell"></div>
+        <div class="cell cell-dark"></div>
+        <div class="cell"></div>
+        <div class="cell cell-dark"></div>
+        <div class="cell"></div>
+        <div class="cell cell-dark"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell cell-dark"></div>
+        <div class="cell"></div>
+        <div class="cell cell-dark"></div>
+        <div class="cell"></div>
+        <div class="cell cell-dark"></div>
+        <div class="cell"></div>
+        <div class="cell cell-dark"></div>
+        <div class="cell"></div>
+        <div class="cell cell-dark"></div>
+
+        <div class="cell cell-dark"></div>
+        <div class="cell"></div>
+        <div class="cell cell-dark"></div>
+        <div class="cell"></div>
+        <div class="cell cell-dark"></div>
+        <div class="cell"></div>
+        <div class="cell cell-dark"></div>
+        <div class="cell"></div>
+        <div class="cell cell-dark"></div>
+        <div class="cell"></div>
+      </div>
+      <button id="try-again" type="button" onclick="restart()">
+        Try again
+      </button>
+    </div>
+   </main> 
+    <footer>
+      <!--form email e username-->
+    <form action="./game-index-commento.html" id="muForm" method="GET">
+      <label class="form-footer" for="username">Username:</label>
+      <input class="form-footer" type="text" id="username" name="username" />
+      <br />
+      <label class="form-footer" for="email">Email:</label>
+      <input class="form-footer" type="email" id="email" name="email" />
+      <br />
+      <input class="formbotton-footer"  type="submit" value="Invia dati" />
+    </form>
+    </div>
+     </footer> 
+        <!-- script js -->
+        <script src="/game-js-commento.js"></script>
+         <script src="/game-js-feedback.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+        <script src="/game-campominato.js"></script>
+ 
+  </body>
+</html>
